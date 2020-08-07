@@ -8,4 +8,5 @@
     <string name="answer">Answer</string>
     <string name="equals">=</string>
     <string name="cancel_button">C</string>
+    <string name="multiply_button">*</string>
 </resources>
