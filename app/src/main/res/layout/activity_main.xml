@@ -39,10 +39,10 @@
             android:text="@string/multiply_button"/>
 
         <Button
-            android:id="@+id/equals_button"
+            android:id="@+id/divide_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/equals"/>
+            android:text="@string/divide_button"/>
 
         <Button
             android:id="@+id/cancel_button"
@@ -74,11 +74,79 @@
             android:layout_height="wrap_content"
             android:text="@string/three" />
 
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
         <Button
-            android:id="@+id/dot_button"
+            android:id="@+id/four_button"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:text="@string/four" />
+
+        <Button
+            android:id="@+id/five_button"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:text="@string/five" />
+
+        <Button
+            android:id="@+id/six_button"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:text="@string/six" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/seven_button"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:text="@string/seven" />
+
+        <Button
+            android:id="@+id/eight_button"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:text="@string/eight" />
+
+        <Button
+            android:id="@+id/nine_button"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:text="@string/nine" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/dot_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dot_button" />
+
+    <Button
+        android:id="@+id/zero_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/zero" />
+
+        <Button
+            android:id="@+id/equals_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/dot_button" />
-
+            android:text="@string/equals" />
     </LinearLayout>
 </LinearLayout>
